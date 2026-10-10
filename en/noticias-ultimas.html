@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Night Level - News</title>
+<meta name="description" content="News, reviews and curiosities from the geek universe.">
+<meta name="theme-color" content="#0a0612">
+<meta property="og:title" content="Night Level - News">
+<meta property="og:description" content="News, reviews and curiosities from the geek universe.">
+<link rel="alternate" hreflang="pt-br" href="../noticias-ultimas.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="icon" href="../imagens/NightLevel-ICO.ico">
+</head>
+<body>
+<a class="skip" href="#conteudo">Skip to content</a>
+<div id="xp" aria-hidden="true"></div>
+<canvas id="estrelas" aria-hidden="true"></canvas>
+<header class="cabecalho">
+<a class="container-logo" href="index.html" aria-label="Night Level - Home"><img class="logo" src="../imagens/Logo.png" alt="Night Level"><span class="logo-texto">Level up your night!</span></a>
+<button class="hamburguer" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+<nav class="menu" id="menu" aria-label="Menu">
+<div class="dropdown"><button class="dd-btn" aria-haspopup="true" aria-expanded="false">NEWS <span class="seta">▾</span></button><div class="dropdown-conteudo"><a href="noticias-ultimas.html" aria-current="page">Latest News</a><a href="noticias-reviews.html">Reviews &amp; Analysis</a><a href="noticias-lancamentos.html">Releases &amp; Events</a></div></div>
+<a href="categorias.html">CATEGORIES</a>
+<a href="curiosidades.html">CURIOSITIES</a>
+<a href="contato.html">CONTACT</a>
+<a class="btn-entrar" href="login.html">SIGN IN</a>
+<a class="idioma" href="../noticias-ultimas.html" hreflang="pt-br"><img src="../imagens/brazil-flag.png" alt="Português" width="18" height="18"> PT</a>
+</nav>
+</header>
+<main id="conteudo">
+<h1 class="titulo">News</h1><p class="descricao">Follow what&#x27;s happening in games, movies, series, anime, books and manga.</p><div class="ferramentas"><div class="chips"><button class="chip" data-filtro="todos" aria-pressed="false">All</button><button class="chip" data-filtro="jogos" aria-pressed="false">Games</button><button class="chip" data-filtro="filmes" aria-pressed="false">Movies</button><button class="chip" data-filtro="series" aria-pressed="false">Series</button><button class="chip" data-filtro="animes" aria-pressed="false">Anime</button><button class="chip" data-filtro="livros" aria-pressed="false">Books</button><button class="chip" data-filtro="manga" aria-pressed="false">Manga</button></div><input class="busca" id="busca" type="search" placeholder="Search news…" aria-label="Search news…"></div><div class="grid" id="grade-noticias"><article class="card rev" data-categoria="jogos"><div class="thumb"><img src="../imagens/NVIDIA-ultimas.jpg" alt="New in games" loading="lazy" ></div><div class="card-info"><span class="tag jogos">Games</span><h2>New in games</h2><p class="resumo">NVIDIA announced at Gamescom 2025 that several games will use DLSS 4 with ray tracing and path tracing to dramatically improve graphics. Some of these titles will arrive through the GeForce NOW cloud service.</p><button class="btn-ler" aria-expanded="false">Read more</button></div></article><article class="card rev" data-categoria="filmes"><div class="thumb"><img src="../imagens/cinemacon-ultimas.jpg" alt="CinemaCon 2025 reveals big news" loading="lazy" ></div><div class="card-info"><span class="tag filmes">Movies</span><h2>CinemaCon 2025 reveals big news</h2><p class="resumo">At CinemaCon, studios announced new titles such as Avatar: Fire &amp; Ash, the Superman reboot by James Gunn, and M3GAN 2.0.</p><button class="btn-ler" aria-expanded="false">Read more</button></div></article><article class="card rev" data-categoria="animes"><div class="thumb"><img src="../imagens/chainsaw-ultimas.jpeg" alt="Chainsaw Man: The Movie – Reze Arc premieres September 19, 2025" loading="lazy" ></div><div class="card-info"><span class="tag animes">Anime</span><h2>Chainsaw Man: The Movie – Reze Arc premieres September 19, 2025</h2><p class="resumo">The canonical continuation of the anime adapts the “Bomb Girl” arc from the manga and focuses on Denji&#x27;s relationship with Reze.</p><button class="btn-ler" aria-expanded="false">Read more</button></div></article><article class="card rev" data-categoria="series"><div class="thumb"><img src="../imagens/blackmirror-ultimas.jpg" alt="Black Mirror returns in 2025 with 6 new episodes, including a “USS Callister” sequel" loading="lazy" ></div><div class="card-info"><span class="tag series">Series</span><h2>Black Mirror returns in 2025 with 6 new episodes, including a “USS Callister” sequel</h2><p class="resumo">The Netflix anthology series launches new stories and, for the first time, an episode will be a direct continuation of a previous one.</p><button class="btn-ler" aria-expanded="false">Read more</button></div></article><article class="card rev" data-categoria="series"><div class="thumb"><img src="../imagens/911-ultimas.jpg" alt="Chris O’Donnell stars in new spin-off “9-1-1: Nashville” in 2025" loading="lazy" ></div><div class="card-info"><span class="tag series">Series</span><h2>Chris O’Donnell stars in new spin-off “9-1-1: Nashville” in 2025</h2><p class="resumo">The actor joins the “9-1-1” franchise as a fire captain in Nashville, in the new ABC series.</p><button class="btn-ler" aria-expanded="false">Read more</button></div></article><article class="card rev" data-categoria="filmes"><div class="thumb"><img src="../imagens/D23-ultimas.jpg" alt="Disney makes announcements at Destination D23 2025" loading="lazy" ></div><div class="card-info"><span class="tag filmes">Movies</span><h2>Disney makes announcements at Destination D23 2025</h2><p class="resumo">At the D23 convention, Disney revealed a teaser for Avengers: Doomsday, news about Toy Story 5, and other upcoming productions.</p><button class="btn-ler" aria-expanded="false">Read more</button></div></article><article class="card rev" data-categoria="livros"><div class="thumb"><img src="../imagens/jogosvorazes-ultimas.jpeg" alt="Suzanne Collins releases new ‘Hunger Games’ novel: Sunrise on the Reaping" loading="lazy" ></div><div class="card-info"><span class="tag livros">Books</span><h2>Suzanne Collins releases new ‘Hunger Games’ novel: Sunrise on the Reaping</h2><p class="resumo">The book takes place 24 years before the original trilogy and focuses on the 50th Hunger Games, with Haymitch Abernathy as the protagonist. It debuts March 18, 2025.</p><button class="btn-ler" aria-expanded="false">Read more</button></div></article><article class="card rev" data-categoria="manga"><div class="thumb"><img src="../imagens/crunchyroll-ultimas.jpg" alt="Crunchyroll announces new manga reading app" loading="lazy" ></div><div class="card-info"><span class="tag manga">Manga</span><h2>Crunchyroll announces new manga reading app</h2><p class="resumo">The platform will launch the Crunchyroll Manga app, initially in the US and Canada, for Android, iOS and, later, web.</p><button class="btn-ler" aria-expanded="false">Read more</button></div></article></div><p class="vazio">No news found. Try another search or category.</p></main>
+<footer class="rodape">
+<div class="rodape-grid">
+<div><img class="logo-rodape" src="../imagens/Logo.png" alt="Night Level"><p>News, curiosities and updates from the geek universe. Level up your night!</p></div>
+<div><h3>Topics</h3><ul><li><a href="curiosidades.html">Curiosities</a></li><li><a href="contato.html">Contact</a></li><li><a href="categorias.html">Categories</a></li><li><a href="noticias-ultimas.html">Latest News</a></li></ul></div>
+<div><h3>Socials</h3><ul><li><a href="#" rel="noopener">Instagram</a></li><li><a href="#" rel="noopener">YouTube</a></li><li><a href="#" rel="noopener">X</a></li></ul></div>
+</div>
+<p class="copyright">© <span data-ano>2025</span> Night Level - All rights reserved.</p>
+</footer>
+<button id="topo" aria-label="Back to top">LV<b>1</b></button>
+<script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Night Level - Categories</title>
+<meta name="description" content="Pick a category to see highlights, popular genres and news.">
+<meta name="theme-color" content="#0a0612">
+<meta property="og:title" content="Night Level - Categories">
+<meta property="og:description" content="Pick a category to see highlights, popular genres and news.">
+<link rel="alternate" hreflang="pt-br" href="../categorias.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="icon" href="../imagens/NightLevel-ICO.ico">
+</head>
+<body>
+<a class="skip" href="#conteudo">Skip to content</a>
+<div id="xp" aria-hidden="true"></div>
+<canvas id="estrelas" aria-hidden="true"></canvas>
+<header class="cabecalho">
+<a class="container-logo" href="index.html" aria-label="Night Level - Home"><img class="logo" src="../imagens/Logo.png" alt="Night Level"><span class="logo-texto">Level up your night!</span></a>
+<button class="hamburguer" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+<nav class="menu" id="menu" aria-label="Menu">
+<div class="dropdown"><button class="dd-btn" aria-haspopup="true" aria-expanded="false">NEWS <span class="seta">▾</span></button><div class="dropdown-conteudo"><a href="noticias-ultimas.html">Latest News</a><a href="noticias-reviews.html">Reviews &amp; Analysis</a><a href="noticias-lancamentos.html">Releases &amp; Events</a></div></div>
+<a href="categorias.html" aria-current="page">CATEGORIES</a>
+<a href="curiosidades.html">CURIOSITIES</a>
+<a href="contato.html">CONTACT</a>
+<a class="btn-entrar" href="login.html">SIGN IN</a>
+<a class="idioma" href="../categorias.html" hreflang="pt-br"><img src="../imagens/brazil-flag.png" alt="Português" width="18" height="18"> PT</a>
+</nav>
+</header>
+<main id="conteudo">
+<h1 class="titulo">Category Map</h1><p class="descricao">Pick a category to see highlights, popular genres and news.</p><div class="mapa"><a class="card cat rev" href="jogos.html"><span class="icone" aria-hidden="true">🎮</span><h2>Games</h2><p>Trailers, gameplay and releases.</p></a><a class="card cat rev" href="filmes.html"><span class="icone" aria-hidden="true">🎬</span><h2>Movies</h2><p>From cinema to this week's premieres.</p></a><a class="card cat rev" href="series.html"><span class="icone" aria-hidden="true">📺</span><h2>Series</h2><p>Binge-worthy stories.</p></a><a class="card cat rev" href="animes.html"><span class="icone" aria-hidden="true">🌸</span><h2>Anime</h2><p>The most-watched anime.</p></a><a class="card cat rev" href="livros.html"><span class="icone" aria-hidden="true">📚</span><h2>Books</h2><p>Reads that shaped generations.</p></a><a class="card cat rev" href="mangas.html"><span class="icone" aria-hidden="true">📖</span><h2>Manga</h2><p>The world's most-read manga.</p></a></div></main>
+<footer class="rodape">
+<div class="rodape-grid">
+<div><img class="logo-rodape" src="../imagens/Logo.png" alt="Night Level"><p>News, curiosities and updates from the geek universe. Level up your night!</p></div>
+<div><h3>Topics</h3><ul><li><a href="curiosidades.html">Curiosities</a></li><li><a href="contato.html">Contact</a></li><li><a href="categorias.html">Categories</a></li><li><a href="noticias-ultimas.html">Latest News</a></li></ul></div>
+<div><h3>Socials</h3><ul><li><a href="#" rel="noopener">Instagram</a></li><li><a href="#" rel="noopener">YouTube</a></li><li><a href="#" rel="noopener">X</a></li></ul></div>
+</div>
+<p class="copyright">© <span data-ano>2025</span> Night Level - All rights reserved.</p>
+</footer>
+<button id="topo" aria-label="Back to top">LV<b>1</b></button>
+<script src="../js/main.js"></script>
+</body>
+</html>
