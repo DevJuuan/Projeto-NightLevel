@@ -4,7 +4,7 @@ Portal geek bilíngue (PT-BR / EN) com notícias, reviews, lançamentos, categor
 
 > Melhore o nível da sua noite!
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - **15 páginas em 2 idiomas** (português e inglês), com troca de idioma que leva para a mesma página no outro idioma
 - **Notícias** com filtro por categoria, busca em tempo real e botão "Ler mais"
@@ -15,15 +15,15 @@ Portal geek bilíngue (PT-BR / EN) com notícias, reviews, lançamentos, categor
 - **Efeitos visuais:** barra de XP que acompanha a rolagem, fundo de estrelas animado, hero com efeito neon e texto digitado, cards com inclinação 3D e brilho que segue o mouse, animações ao rolar a página
 - **Responsivo:** menu hambúrguer no celular e grades que se adaptam a qualquer tela
 
-## ♿ Acessibilidade e boas práticas
+## Acessibilidade e boas práticas
 
 Link "pular para o conteúdo", foco visível para navegação por teclado, textos alternativos nas imagens, `prefers-reduced-motion` respeitado, imagens com fallback quando faltam e meta tags de SEO com `hreflang` entre os idiomas.
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 HTML5 semântico · CSS3 (variáveis, Grid, Flexbox, animações) · JavaScript (ES6+, Intersection Observer, Canvas) · Python (gerador das páginas)
 
-## 📁 Estrutura
+## Estrutura
 
 ```
 index.html, noticias-*.html, ...   páginas em português
@@ -34,7 +34,7 @@ imagens/                           imagens do projeto
 build.py                           gera as 30 páginas (PT e EN) a partir de um só lugar
 ```
 
-## 🚀 Como rodar
+## Como rodar
 
 1. Clone o repositório:
    ```bash
@@ -50,12 +50,6 @@ Os textos e cards ficam no `build.py`. Depois de editar, regenere as páginas:
 python build.py
 ```
 
-## 🗺️ Próximos passos
-
-- Conectar login, cadastro e contato a um back-end
-- Páginas individuais para cada notícia
-- Modo claro
-
-## 👤 Autor
+##  Autor
 
 **Juan Vicente de Oliveira** · [@DevJuuan](https://github.com/DevJuuan)
